@@ -37,6 +37,11 @@
     border-radius: 8px;
     text-align: center;
 }
+#import {
+    width: 480px;
+    color: red;
+    text-align: center;
+}
 .cd img {
     transition:0.7s;
 }
@@ -169,6 +174,9 @@ td {
     .cd {
         width: 420px;
     }
+    #import {
+        width: 420px;
+    }    
 }
 @media screen and (max-width: 768px) {
     .tv__sect {
@@ -182,6 +190,9 @@ td {
             width: 32px;
         }
     .cd {
+        width: 380px;
+    }
+    #import {
         width: 380px;
     }
     .tv__cd img {
@@ -207,6 +218,9 @@ td {
             width: 22px;
         }
     .cd {
+        width: 280px;
+    }
+    #import {
         width: 280px;
     }
     .tv__cd img {

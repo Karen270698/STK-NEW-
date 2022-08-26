@@ -209,7 +209,7 @@ hr {
 
 .img-fluid {
     display: inline-block;
-    height: 700px;
+    height: 550px;
     width: 100%;
     -o-object-fit: cover;
     object-fit: cover;
@@ -221,8 +221,8 @@ hr {
 }
 
 .arajin {
-    top: 16%;
-    left: 18%;
+    top: 5%;
+    left: 10%;
     font-size: 80px;
     font-family: 'robotobold';
     line-height: 90%;
@@ -233,7 +233,7 @@ hr {
 }
 
 .erkrord {
-    top: 26%;
+    top: 12%;
     left: 8%;
     font-size: 80px;
     font-family: 'robotobold';
@@ -245,7 +245,7 @@ hr {
 }
 
 .erord {
-    top: 28%;
+    top: 22%;
     right: 5%;
     font-size: 80px;
     font-family: 'robotobold';
@@ -256,7 +256,7 @@ hr {
     width: 745px;
 }
 
-.chorord {
+/* .chorord {
     width: 750px;
     color: white;
     text-align: center;
@@ -277,7 +277,7 @@ hr {
     color: #004092;
     text-shadow: -2px -2px 6px white;
     text-align: left;
-}
+} */
 
 /*SLIDER END*/
 
@@ -289,6 +289,7 @@ hr {
     font-weight: 600;
     text-align: center;
     font-family: 'robotobold';
+    margin: 20px 0;
 }
 
 .tit img {

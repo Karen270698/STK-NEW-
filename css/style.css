@@ -310,8 +310,8 @@ hr {
 
 .tarif {
     background-color: white;
-    -webkit-box-shadow: 0 2px 8px 0 #cecece;
-    box-shadow: 0 2px 8px 0 #cecece;
+    -webkit-box-shadow: 0 2px 8px 0 #919191;
+    box-shadow: 0 2px 8px 0 #919191;
     margin: 55px 0;
     text-align: center;
     position: relative;
@@ -321,8 +321,8 @@ hr {
 }
 
 .tarif:hover {
-    -webkit-box-shadow: 0 4px 32px 0 #636363;
-    box-shadow: 0 4px 32px 0 #636363;
+    -webkit-box-shadow: 0 4px 32px 0 #4b4b4b;
+    box-shadow: 0 4px 32px 0 #4b4b4bs;
 }
 
 .int img,
@@ -419,20 +419,20 @@ hr {
 }
 
 .int {
-    -webkit-box-shadow: 0 0 9px 1px #fcc204, 0px 21px 5px -18px rgb(0 0 0 / 60%);
-    box-shadow: 0 0 9px 1px #fcc204, 0px 21px 5px -18px rgb(0 0 0 / 60%);
+    -webkit-box-shadow: 0 0 12px 1px #fcc204, 0px 21px 5px -18px rgb(0 0 0 / 60%);
+    box-shadow: 0 0 12px 1px #fcc204, 0px 21px 5px -18px rgb(0 0 0 / 60%);
     background: #ffffff;
 }
 
 .tv {
-    -webkit-box-shadow: 0 0 9px 1px #2a80e4, 0px 21px 5px -18px rgb(0 0 0 / 60%);
-    box-shadow: 0 0 9px 1px #2a80e4, 0px 21px 5px -18px rgb(0 0 0 / 60%);
+    -webkit-box-shadow: 0 0 12px 1px #2a80e4, 0px 21px 5px -18px rgb(0 0 0 / 60%);
+    box-shadow: 0 0 12px 1px #2a80e4, 0px 21px 5px -18px rgb(0 0 0 / 60%);
     background: #ffffff;
 }
 
 .cctv {
-    -webkit-box-shadow: 0 0 9px 1px #ec1b3b, 0px 21px 5px -18px rgb(0 0 0 / 60%);
-    box-shadow: 0 0 9px 1px #ec1b3b, 0px 21px 5px -18px rgb(0 0 0 / 60%);
+    -webkit-box-shadow: 0 0 12px 1px #ec1b3b, 0px 21px 5px -18px rgb(0 0 0 / 60%);
+    box-shadow: 0 0 12px 1px #ec1b3b, 0px 21px 5px -18px rgb(0 0 0 / 60%);
     background: #ffffff;
 }
 

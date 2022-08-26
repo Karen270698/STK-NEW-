@@ -221,37 +221,37 @@ hr {
 }
 
 .arajin {
-    top: 5%;
-    left: 10%;
-    font-size: 80px;
+    top: 8%;
+    left: 12%;
+    font-size: 65px;
     font-family: 'robotobold';
     line-height: 90%;
     color: #ffffff;
-    text-shadow: 0px 0px 15px black;
+    text-shadow: -3px -3px 3px black;
     text-align: center;
     width: 640px;
 }
 
 .erkrord {
     top: 12%;
-    left: 8%;
-    font-size: 80px;
+    left: 10%;
+    font-size: 65px;
     font-family: 'robotobold';
     line-height: 90%;
-    color: #338600;
+    color: #4bab10;
     text-shadow: -3px -3px 3px black;
     text-align: center;
-    width: 700px;
+    width: 650px;
 }
 
 .erord {
-    top: 22%;
+    top: 25%;
     right: 5%;
-    font-size: 80px;
+    font-size: 65px;
     font-family: 'robotobold';
     line-height: 90%;
-    color: #242424;
-    text-shadow: 3px -3px 3px white;
+    color: #ff9800;
+    text-shadow: 3px -3px 3px #000;
     text-align: center;
     width: 745px;
 }

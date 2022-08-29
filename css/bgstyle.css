@@ -436,8 +436,15 @@ body._touch .menu__list > li._dropdown .menu__arrow {
         line-height: 90%;
     }
 }
-
+@media (max-width:1024px) {
+    .header {
+        height: 170px;
+    }
+}
 @media(max-width:768px) {
+    .header {
+        height: 85px;
+    }
     .container__head {
         padding: 0px 10px 0;
     }
@@ -478,6 +485,9 @@ body._touch .menu__list > li._dropdown .menu__arrow {
 }
 
 @media(max-width:480px) {
+    .header {
+        height: 75px;
+    }
     .header__logo {
         width: 60px;
     }

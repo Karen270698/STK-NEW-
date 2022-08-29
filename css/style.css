@@ -35,7 +35,7 @@ hr {
 .container__slide {
     width: 100%;
     background: transparent;
-    margin: 130px auto 10px;
+    margin: 122px auto 10px;
 }
 
 /* стили основного контейнера слайдера */
@@ -330,7 +330,8 @@ hr {
 .cctv img {
     width: 45px;
     height: 45px;
-    padding: 10px 0 0 0;
+    position: relative;
+    top: 15%;
 }
 
 .tf__title {
@@ -732,7 +733,7 @@ hr {
 .dot-container {
     text-align: center;
     padding: 12px;
-    max-width: 626px;
+    max-width: 650px;
     margin: 0 auto 20px;
     background: #dce7ef;
 }

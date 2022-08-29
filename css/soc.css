@@ -78,7 +78,9 @@
 
 .sh {
     width: 35px;
-    padding: 13px 0 0 10px;
+    position: relative;
+    top: 15%;
+    left: 15%;
 }
 
 .soc-buttons {
@@ -189,7 +191,8 @@
     }
     .sh {
         width: 28px;
-        padding: 9px 0 0 6px;
+        top: 8%;
+        left: 16%;
     }
     .fc {
         width: 15px;

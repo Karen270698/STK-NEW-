@@ -781,14 +781,11 @@ q {
 .block-popup {
     position: fixed;
     z-index: 45;
-    /* background: rgb(255 255 255);; */
-    width: 320px;
-    height: 380px;
+    width: 260px;
+    height: 360px;
     top: 22%;
     right: 0%;
-    /* transform: translate(-50%, -50%); */
     border-radius: 3px;
-    /* border: 1px solid #ccc; */
     box-shadow: -5px 5px 20px -10px;
     text-align: center;
     display: none;

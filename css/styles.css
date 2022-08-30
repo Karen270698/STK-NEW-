@@ -909,8 +909,8 @@ q {
     }
 
     .block-popup {
-        width: 300px;
-        height: 435px;
+        width: 220px;
+        height: 305px;
     }
 }
 
@@ -989,10 +989,10 @@ q {
         left: 30%;
     }
 
-    .block-popup {
-        width: 270px;
-        height: 395px;
-    }
+    /* .block-popup {
+        width: 180px;
+        height: 250px;
+    } */
 
     .block-popup a {
         left: 30px;
@@ -1104,10 +1104,10 @@ q {
         left: 30%;
     }
 
-    .block-popup {
-        width: 220px;
-        height: 325px;
-    }
+    /* .block-popup {
+        width: 160px;
+        height: 220px;
+    } */
 
     .block-popup a {
         left: 17px;

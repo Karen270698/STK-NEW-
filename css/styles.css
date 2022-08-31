@@ -989,11 +989,6 @@ q {
         left: 30%;
     }
 
-    /* .block-popup {
-        width: 180px;
-        height: 250px;
-    } */
-
     .block-popup a {
         left: 30px;
         width: 115px;
@@ -1104,10 +1099,10 @@ q {
         left: 30%;
     }
 
-    /* .block-popup {
-        width: 160px;
-        height: 220px;
-    } */
+    .block-popup {
+        width: 180px;
+        height: 250px;
+    }
 
     .block-popup a {
         left: 17px;

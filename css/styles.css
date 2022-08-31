@@ -1109,4 +1109,7 @@ q {
         width: 100px;
         padding: 0;
     }
+    .block-popup span {
+        top: 3px;
+    }
 }

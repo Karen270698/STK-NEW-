@@ -447,7 +447,7 @@ body._touch .menu__list > li._dropdown .menu__arrow {
         height: 85px;
     }
     .container__head {
-        padding: 0px 10px 0;
+        padding: 3px 10px 0;
     }
 
     .header__body {

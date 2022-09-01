@@ -226,8 +226,8 @@ hr {
     font-size: 65px;
     font-family: 'robotobold';
     line-height: 90%;
-    color: #ffffff;
-    text-shadow: -3px -3px 3px black;
+    color: #fff;
+    text-shadow: 0px 0px 20px black;
     text-align: center;
     width: 640px;
 }
@@ -238,8 +238,8 @@ hr {
     font-size: 65px;
     font-family: 'robotobold';
     line-height: 90%;
-    color: #4bab10;
-    text-shadow: -3px -3px 3px black;
+    color: #fff;
+    text-shadow: 0px 0px 20px black;
     text-align: center;
     width: 650px;
 }
@@ -250,8 +250,8 @@ hr {
     font-size: 65px;
     font-family: 'robotobold';
     line-height: 90%;
-    color: #ff9800;
-    text-shadow: 3px -3px 3px #000;
+    color: #fff;
+    text-shadow: 0px 0px 20px #000;
     text-align: center;
     width: 745px;
 }
@@ -321,8 +321,8 @@ hr {
 }
 
 .tarif:hover {
-    -webkit-box-shadow: 0 4px 32px 0 #4b4b4b;
-    box-shadow: 0 4px 32px 0 #4b4b4bs;
+    -webkit-box-shadow: 0 4px 20px 0 #4b4b4b;
+    box-shadow: 0 4px 20px 0 #4b4b4b;
 }
 
 .int img,
@@ -780,7 +780,7 @@ q {
 /*--------------------*/
 .block-popup {
     position: fixed;
-    z-index: 45;
+    z-index: 9;
     width: 260px;
     height: 360px;
     top: 22%;

@@ -10,6 +10,17 @@
     background: transparent;
     margin: 0 auto;
 }
+.n3__text {
+    color: #fff;
+    text-shadow: 0px 0px 10px black;
+    font-size: 60px;
+    margin: 0 0 0 10px;
+}
+.n3__img {
+    width: fit-content !important;
+    height: 100px;
+    opacity: 1 !important;
+}
 .smt {
     margin: 0 0 25px 0;
 }
@@ -32,7 +43,7 @@
 .cd {
     width: 480px;
     margin: 5px;
-    background: #fffbeb;
+    background: #ebebeb;
     border: none;
     border-radius: 8px;
     text-align: center;
@@ -48,16 +59,22 @@
 .cd:hover img {
     transform:scale(0.8);
 }
+.cd:hover img.n3__img {
+    transform:none;
+}
 
 .tv__text {
     position: absolute;
-    margin:50px 0 0 0;
+    margin:100px 0 0 0;
     width: inherit;
     height: inherit;
     z-index: 1;
     font-size: 60px;
     font-weight: 900;
     transition:0.7s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .tv__text:hover {
@@ -67,10 +84,12 @@
 
 .smt__text {
     color: #2498ff;
+    margin: 10px;
     text-shadow: 0px 0px 10px black;
 }
 .tvp__text {
     color: #ff7600;
+    margin: 10px;
     text-shadow: 0px 0px 10px black;
 }
 
@@ -164,9 +183,14 @@ td {
 
     .tv__text {
         font-size: 50px;
-        margin: 40px 0 0 0;
+        margin: 80px 0 0 0;
     }
-
+    .n3__text {
+        font-size: 50px;
+    }
+    .n3__img {
+        height: 80px;
+    }
     .tv__cd img {
         width: 380px;
     }
@@ -201,6 +225,13 @@ td {
     .tv__text {
         font-size: 42px;       
     }
+    .n3__text {
+        font-size: 42px;
+    }
+    .n3__img {
+        height: 70px;
+    }
+
     tr {
         font-size: 20px;
     }
@@ -228,7 +259,13 @@ td {
     }
     .tv__text {
         font-size: 32px;
-        margin: 30px 0 0 0;
+        margin: 55px 0 0 0;
+    }
+    .n3__text {
+        font-size: 32px;
+    }
+    .n3__img {
+        height: 50px;
     }
 
     tr {

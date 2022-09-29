@@ -393,7 +393,7 @@ body._touch .menu__list > li._dropdown .menu__arrow {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    width: 48%;
+    width: 49%;
     font-family: 'robotoligth';
 }
 

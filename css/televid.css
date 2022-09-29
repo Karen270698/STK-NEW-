@@ -18,7 +18,7 @@
 }
 .n3__img {
     width: fit-content !important;
-    height: 100px;
+    height: 80px;
     opacity: 1 !important;
 }
 .smt {
@@ -84,12 +84,12 @@
 
 .smt__text {
     color: #2498ff;
-    margin: 10px;
+    margin: 0;
     text-shadow: 0px 0px 10px black;
 }
 .tvp__text {
     color: #ff7600;
-    margin: 10px;
+    margin: 0;
     text-shadow: 0px 0px 10px black;
 }
 
@@ -189,7 +189,7 @@ td {
         font-size: 50px;
     }
     .n3__img {
-        height: 80px;
+        height: 60px;
     }
     .tv__cd img {
         width: 380px;
@@ -229,7 +229,7 @@ td {
         font-size: 42px;
     }
     .n3__img {
-        height: 70px;
+        height: 50px;
     }
 
     tr {
@@ -265,7 +265,7 @@ td {
         font-size: 32px;
     }
     .n3__img {
-        height: 50px;
+        height: 40px;
     }
 
     tr {

@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="css/socs.css" type="text/css">
     <link rel="stylesheet" href="css/styles.css" type="text/css">
     <link rel="stylesheet" href="css/bgstyles.css" type="text/css">
+    <link rel="stylesheet" href="snow/snow.css" type="text/css">
     <!-- <script type="text/javascript">
         (function (m, e, t, r, i, k, a) {
             m[i] = m[i] || function () { (m[i].a = m[i].a || []).push(arguments) };
@@ -36,6 +37,8 @@
 </head>
 
 <body>
+    <div class="falling"></div>
+    <!------------------------------>
 
     <header class="header">
         <div class="container__head">
@@ -189,11 +192,59 @@
 
         <article class="grid-item">
             <span class="nwdata">
+                <p>28.11.2022</p>
+            </span>
+
+            <div class="image">
+                <img src="img/nw22.jpg" alt="news1" />
+            </div>
+            <div class="info">
+                <h2>Технические работы!</h2>
+                <div class="info-text">
+                    <p>
+                        02.12.2022 года в период времени с 02 часов 00 минут по 06 часов 00 минут будут проводиться плановые профилактические работы на узле связи, в связи с чем у пользователей, подключенных к сети передачи данных ООО «СТК»...</p>
+                </div>
+                <div class="button-wrap">
+                    <a class="atuin-btn" href="news.html">Подробнее</a>
+                </div>
+            </div>
+        </article>
+
+        <!-- Еще блоки -->
+
+        <article class="grid-item">
+            <span class="nwdata">
+                <p>02.11.2022</p>
+            </span>
+
+            <div class="image">
+                <img src="img/nw32.jpg" alt="news2" />
+            </div>
+            <div class="info">
+                <h2>График работы</h2>
+                <div class="info-text">
+                    <p>
+                        Поздравляем с наступающими праздниками и сообщаем режим работы нашего офиса:<br>
+                            <span style="color: red;">4 ноября, пятница - выходной день,</span><br>
+                            <span style="color: red;">5 ноября, суббота - выходной день,</span><br>
+                            <span style="color: red;">6 ноября, воскресение - выходной день,</span>...
+                        </p>
+                </div>
+                <div class="button-wrap">
+                    <a class="atuin-btn" href="news.html">Подробнее</a>
+                </div>
+            </div>
+        </article>
+
+        <!-- Еще блоки -->
+
+        <article class="grid-item">
+            <span class="nwdata">
                 <p>10.10.2022</p>
             </span>
 
             <div class="image">
-                <img src="img/nw31.jpg" alt="news1" />
+                <img src="img/nw31.jpg" alt="news3" />
             </div>
             <div class="info">
                 <h2>Цифровое N3 ТВ</h2>
@@ -216,7 +267,7 @@
             </span>
 
             <div class="image">
-                <img src="img/nw30.jpg" alt="news2" />
+                <img src="img/nw30.jpg" alt="news4" />
             </div>
             <div class="info">
                 <h2>Изменение условий!</h2>
@@ -224,52 +275,6 @@
                     <p>
                         Уважаемые пользователи!
                         В связи с изменившимися условиями предоставления сервиса телевидения от «Смотрешки», уведомляем, что с 01 сентября 2022 года прекращается предоставление бесплатного сервиса...
-                    </p>
-                </div>
-                <div class="button-wrap">
-                    <a class="atuin-btn" href="news.html">Подробнее</a>
-                </div>
-            </div>
-        </article>
-
-        <!-- Еще блоки -->
-
-        <article class="grid-item">
-            <span class="nwdata">
-                <p>24.08.2022</p>
-            </span>
-
-            <div class="image">
-                <img src="img/nw29.jpg" alt="news3" />
-            </div>
-            <div class="info">
-                <h2>Подключение КП "Артемово"</h2>
-                <div class="info-text">
-                    <p>
-                        Уважаемые пользователи! С 24 августа компания ООО "СТК" начинает оказание услуг доступа к сети Интернет в коттеджном поселке   "Артемово", городского округа Пушкинский, Московской области.
-                    </p>
-                </div>
-                <div class="button-wrap">
-                    <a class="atuin-btn" href="news.html">Подробнее</a>
-                </div>
-            </div>
-        </article>
-
-        <!-- Еще блоки -->
-
-        <article class="grid-item">
-            <span class="nwdata">
-                <p>03.08.2022</p>
-            </span>
-
-            <div class="image">
-                <img src="img/nw28.jpg" alt="news4" />
-            </div>
-            <div class="info">
-                <h2>Гастрономический фестиваль</h2>
-                <div class="info-text">
-                    <p>
-                        Дорогие друзья! Рады сообщить, что 13 и 14 августа в Муранове пройдет гастрономический фестиваль День Варенья. ООО "СТК" на дни проведения мероприятия обеспечит всех гостей...
                     </p>
                 </div>
                 <div class="button-wrap">
@@ -435,12 +440,11 @@
     </div>
 
     <!------------------------------>
-    <div class="block-popup">
+    <!-- <div class="block-popup">
         <img src="img/popup.jpg">
         <span>&times;</span>
-        <!-- <a href="news.html">Подробнее</a> -->
     </div>
-    <div class="overlay"></div>
+    <div class="overlay"></div> -->
     <!------------------------------>
     <section class="section__footer">
         <footer id="mac" class="footer">
@@ -448,7 +452,7 @@
 
                 <div class="map__cont">
                     <p id="map__text">
-                        © 2015 – 2022 компания СТК. Московская обл., Пушкинский р-н, г. Красноармейск, ул. Свердлова 7
+                        © 2015 – 2022 компания СТК. 141292 Московская обл., Пушкинский р-н, г. Красноармейск, ул. Свердлова 7
                     </p>
                     <p id="number">8(495) 111-96-96 / 8(496) 500-00-00</p>
                     <p class="bot">
@@ -486,7 +490,7 @@
     <!-- <script src="jquery/jquery-3.4.1.slim.min.js"></script>-->
     <!-- За всплывющую рекламу -->
     <script src="jquery/jquery-3.3.1.min.js"></script>
-    <script type="text/javascript">
+    <!-- <script type="text/javascript">
         $('.open-modal').click(function () {
             $('.block-popup').fadeIn();
         })
@@ -496,8 +500,10 @@
 
         setTimeout(function () {
             $('.block-popup').fadeIn();
-        }, 1500)</script>
+        }, 1500)</script> -->
     <script src="js/bgscripts.js"></script>
+    <!------------------->
+    <script src="snow/snow.js"></script>
 
 </body>
 

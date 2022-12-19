@@ -164,7 +164,7 @@ tr:nth-child(even) {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    margin:0 0 95px;
+    margin:0 0 38px;
 }
 
 .row > .column {
@@ -246,7 +246,12 @@ tr:nth-child(even) {
     user-select: none;
     -webkit-user-select: none;
 }
-
+/*----------*/
+.lic__prod {
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+}
 /* Position the "next button" to the right */
 .next {
     right: 0;
@@ -350,6 +355,8 @@ img.hover-shadow {
 }
 
 .pdf__text {
+    display: flex;
+    align-items: center;
     width: fit-content;
     font-size: 20px;
     padding: 5px;

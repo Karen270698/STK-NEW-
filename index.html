@@ -16,7 +16,6 @@
     <link rel="stylesheet" href="css/socs.css" type="text/css">
     <link rel="stylesheet" href="css/styles.css" type="text/css">
     <link rel="stylesheet" href="css/bgstyles.css" type="text/css">
-    <link rel="stylesheet" href="snow/snow.css" type="text/css">
     <!-- <script type="text/javascript">
         (function (m, e, t, r, i, k, a) {
             m[i] = m[i] || function () { (m[i].a = m[i].a || []).push(arguments) };
@@ -50,9 +49,21 @@
                 <nav class="navn">
                     <a class="nav__link one" id="button-161648" target="_blank"
                     onclick="FDPopup.open(189194,{'hideCloseBtn':false,'host':'formdesigner.ru','overlay':{'background':'#000000','opacity':0.1}}); return false;" href="https://formdesigner.ru/form/view/189194" title="Подключится">Подключиться</a>
-                    <a class="nav__link two" href="https://userstat.stknet.ru/" title="Личный Кабинет">Личный
-                        Кабинет</a>
+                    <a class="nav__link two" onclick="showPopup()" title="Личный Кабинет">Личный Кабинет</a>
                 </nav>
+
+                    <div id="popup">
+                        <div id="popupcontent">
+                            <p class="poptit">Скачивайте приложение СТК<br>Личного кабинета</p>
+                            <div class="popimg">
+                                <a href="https://play.google.com/store/apps/details?id=com.stk.lk"><img src="/img/GPforLK.png" alt=""></a>
+                                <a href="/doc/stk.lk.apk"><img src="/img/APKforLK.png" alt=""></a>
+                                <p>⚠ Для установки .apk файла, нужно в настройках смартфона разрешить установку со сторонных источников!</p>
+                            </div>
+                            <p id="offtimer">Переход в личный кабинет через <span id="timer">500</span> секунд!</p>
+                            <span id="close" onclick="hidePopup()">✖</span>
+                        </div>
+                    </div>
 
                 <div class="header__menu menu">
                     <div class="menu__icon">
@@ -68,7 +79,7 @@
                                     <li><a href="news.html" class="menu__sub-link">Новости</a></li>
                                     <li><a href="akcia.html" class="menu__sub-link">Акции</a></li>
                                     <li><a href="licens.html" class="menu__sub-link">Лицензии</a></li>
-                                    <li><a href="docs.html" class="menu__sub-link">Документы</a></li>
+                                    <li><a href="doc.html" class="menu__sub-link">Документы</a></li>
                                 </ul>
                             </li>
                             <li><a href="internet.html" class="menu__link">Интернет</a></li>
@@ -108,16 +119,8 @@
         <div class="container__slide">
 
             <div class="slider">
-                
-                <div class="falling"></div>
-
                 <div class="slider__wrapper">
                     <div class="slider__items">
-
-                        <a class="slider__item">
-                            <span class="nadpis noviygod">С наступающим  <br />Новым годом<br>2023!</span>
-                            <img class="img-fluid" src="img/sli00.jpg" alt="c0">
-                        </a>
 
                         <a href="televid.html" class="slider__item">
                             <span class="nadpis arajin">ТВ + Интернет <br /> за те же деньги!</span>
@@ -199,17 +202,69 @@
 
         <article class="grid-item">
             <span class="nwdata">
-                <p>28.11.2022</p>
+                <p>07.03.2023</p>
             </span>
 
             <div class="image">
-                <img src="img/nw22.jpg" alt="news1" />
+                <img src="img/nw35.jpg" alt="news1" />
             </div>
             <div class="info">
-                <h2>Технические работы!</h2>
+                <h2>Поздравляем с 8 марта!</h2>
                 <div class="info-text">
                     <p>
-                        02.12.2022 года в период времени с 02 часов 00 минут по 06 часов 00 минут будут проводиться плановые профилактические работы на узле связи, в связи с чем у пользователей, подключенных к сети передачи данных ООО «СТК»...</p>
+                        Милые дамы, от лица компании поздравляем вас с Международным женским днем 8 марта! Любви, здоровья и успехов.<br>
+                        <span style="color: red;">8 марта - выходной день.</span><br>
+                        С уважением, Администрация ООО "СТК"
+                    </div>
+                <div class="button-wrap">
+                    <a class="atuin-btn" href="news.html">Подробнее</a>
+                </div>
+            </div>
+        </article>
+                
+        <!-- Еще блоки -->
+
+        <article class="grid-item">
+            <span class="nwdata">
+                <p>21.02.2023</p>
+            </span>
+
+            <div class="image">
+                <img src="img/nw34.jpg" alt="news2" />
+            </div>
+            <div class="info">
+                <h2>С днём защитника отечества</h2>
+                <div class="info-text">
+                    <p>
+                        Поздравляем с наступающими праздниками и сообщаем режим работы нашего офиса:<br>
+                        22 февраля, среда - рабочий день,<br>
+                        <span style="color: red;">23-26 февраля - выходные дни</span>,<br>
+                        27 февраля, понедельник и далее - рабочие дни...
+                </p>
+                </div>
+                <div class="button-wrap">
+                    <a class="atuin-btn" href="news.html">Подробнее</a>
+                </div>
+            </div>
+        </article>
+
+        <!-- Еще блоки -->
+
+        <article class="grid-item">
+            <span class="nwdata">
+                <p>27.12.2022</p>
+            </span>
+
+            <div class="image">
+                <img src="img/nw33.jpg" alt="news3" />
+            </div>
+            <div class="info">
+                <h2>График работы на новогодние праздники</h2>
+                <div class="info-text">
+                    <p>
+                        Поздравляем с наступающими праздниками и сообщаем режим работы нашего офиса:
+                        <br>
+                        <span style="color: red;">31 декабря, суббота - выходной день(тех. поддержка работает до 19-00)</span>...
                 </div>
                 <div class="button-wrap">
                     <a class="atuin-btn" href="news.html">Подробнее</a>
@@ -225,7 +280,7 @@
             </span>
 
             <div class="image">
-                <img src="img/nw32.jpg" alt="news2" />
+                <img src="img/nw32.jpg" alt="news4" />
             </div>
             <div class="info">
                 <h2>График работы</h2>
@@ -243,52 +298,6 @@
             </div>
         </article>
 
-        <!-- Еще блоки -->
-
-        <article class="grid-item">
-            <span class="nwdata">
-                <p>10.10.2022</p>
-            </span>
-
-            <div class="image">
-                <img src="img/nw31.jpg" alt="news3" />
-            </div>
-            <div class="info">
-                <h2>Цифровое N3 ТВ</h2>
-                <div class="info-text">
-                    <p>
-                        Уважаемые пользователи!<br>
-                        Рады вам сообщить, что теперь при выборе услуги «Цифровое телевидение» в личном кабинете, доступен новый сервис цифровое телевидение N3-entry, предоставляемый...
-                </div>
-                <div class="button-wrap">
-                    <a class="atuin-btn" href="news.html">Подробнее</a>
-                </div>
-            </div>
-        </article>
-
-        <!-- Еще блоки -->
-
-        <article class="grid-item">
-            <span class="nwdata">
-                <p>30.08.2022</p>
-            </span>
-
-            <div class="image">
-                <img src="img/nw30.jpg" alt="news4" />
-            </div>
-            <div class="info">
-                <h2>Изменение условий!</h2>
-                <div class="info-text">
-                    <p>
-                        Уважаемые пользователи!
-                        В связи с изменившимися условиями предоставления сервиса телевидения от «Смотрешки», уведомляем, что с 01 сентября 2022 года прекращается предоставление бесплатного сервиса...
-                    </p>
-                </div>
-                <div class="button-wrap">
-                    <a class="atuin-btn" href="news.html">Подробнее</a>
-                </div>
-            </div>
-        </article>
 
     </section>
     <!-------------------------------------->
@@ -459,7 +468,7 @@
 
                 <div class="map__cont">
                     <p id="map__text">
-                        © 2015 – 2022 компания СТК. 141292 Московская обл., Пушкинский р-н, г. Красноармейск, ул. Свердлова 7
+                        © 2015 – 2023 компания СТК. 141292 Московская обл., Пушкинский р-н, г. Красноармейск, ул. Свердлова 7
                     </p>
                     <p id="number">8(495) 111-96-96 / 8(496) 500-00-00</p>
                     <p class="bot">
@@ -510,7 +519,6 @@
         }, 1500)</script> -->
     <script src="js/bgscripts.js"></script>
     <!------------------->
-    <script src="snow/snow.js"></script>
 
 </body>
 

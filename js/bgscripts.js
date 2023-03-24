@@ -70,6 +70,29 @@ if (isMobile.any()) {
     document.body.classList.add('_pc');
 }
 
+// Android apk
+
+function showPopup() {
+    var popup = document.getElementById("popup");
+    popup.style.display = "block";
+
+    var count=500;
+    var timer=setInterval(function() {
+        count--;
+        document.getElementById("timer").textContent=count;
+        if(count==0) {
+            clearInterval(timer);
+            window.location.href="https://userstat.stknet.ru/";
+        }
+    }, 1000);
+}
+function hidePopup() {
+    var popup = document.getElementById("popup");
+    popup.style.display = "none";
+
+    window.location.href = "https://userstat.stknet.ru/";
+}
+
 //Menu BG
 
 const iconMenu = document.querySelector('.menu__icon');

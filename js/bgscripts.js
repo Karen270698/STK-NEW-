@@ -76,7 +76,7 @@ function showPopup() {
     var popup = document.getElementById("popup");
     popup.style.display = "block";
 
-    var count=500;
+    var count=5;
     var timer=setInterval(function() {
         count--;
         document.getElementById("timer").textContent=count;

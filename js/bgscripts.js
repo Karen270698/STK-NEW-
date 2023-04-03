@@ -82,14 +82,16 @@ function showPopup() {
         document.getElementById("timer").textContent=count;
         if(count==0) {
             clearInterval(timer);
-            window.location.href="https://userstat.stknet.ru/";
+            setTimeout(function() {
+            hidePopup();
+            }, count * 1000);
         }
     }, 1000);
 }
+
 function hidePopup() {
     var popup = document.getElementById("popup");
     popup.style.display = "none";
-
     window.location.href = "https://userstat.stknet.ru/";
 }
 

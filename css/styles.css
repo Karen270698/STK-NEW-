@@ -220,6 +220,22 @@ hr {
     z-index: 1;
 }
 
+.nol {
+    top: 12%;
+    left: 10%;
+    font-size: 105px;
+    font-family: 'robotobold';
+    color: #ff0000;
+    text-shadow:
+    1px 1px 0px #a70000,
+    2px 2px 0px #860000,
+    3px 3px 0px #680000,
+    4px 4px 0px #530000,
+    5px 5px 0px #290000,
+    15px 15px 25px rgba(0,0,0,.9);
+    text-align: center;
+    width: 680px;
+}
 .arajin {
     top: 8%;
     left: 12%;
@@ -835,6 +851,7 @@ q {
     background: #363636;
     box-shadow: 0 1px 3px 0 rgb(54, 54, 54);
 }
+
 
 /*--------------------------------Media----------------------------------*/
 

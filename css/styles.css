@@ -901,6 +901,14 @@ q {
     .container__slide {
         margin: 165px auto 0px;
     }
+
+    .nol {
+        top: 8%;
+        left: 9%;
+        font-size: 60px;
+        width: 400px;
+    }
+
     .arajin {
         top: 10%;
         left: 0%;
@@ -931,11 +939,18 @@ q {
 
 @media screen and (max-width: 768px) {
     .img-fluid {
-        height: 500px;
+        height: 380px;
     }
 
     .container__slide {
         margin: 85px auto 0px;
+    }
+
+    .nol {
+        top: 8%;
+        left: 9%;
+        font-size: 60px;
+        width: 400px;
     }
 
     .arajin {
@@ -1012,11 +1027,17 @@ q {
 
 @media screen and (max-width: 480px) {
     .img-fluid {
-        height: 400px;
+        height: 320px;
     }
 
     .container__slide {
         margin: 75px auto 0px;
+    }
+    .nol {
+        top: 6%;
+        left: 3%;
+        font-size: 48px;
+        width: 360px;
     }
     .arajin {
         left: 3%;

@@ -8,3 +8,6 @@ RewriteRule ^(.*)/index\.html$ /$1/ [R=301,L]
 
 RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
 RewriteRule ^(.*)$ http://%1/$1 [R=301,L]
+
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /index\.html\ HTTP/
+RewriteRule ^index\.html$ https://stknet.ru / [R=301,L]

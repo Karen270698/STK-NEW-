@@ -315,6 +315,7 @@ body._touch .menu__list > li._dropdown .menu__arrow {
 }
 
 .nav__link {
+    cursor: pointer;
     vertical-align: top;
     width: 170px;
     text-align: center;
@@ -467,7 +468,7 @@ body._touch .menu__list > li._dropdown .menu__arrow {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    width: 49%;
+    width: 90%;
     font-family: 'robotoligth';
 }
 
@@ -475,6 +476,9 @@ body._touch .menu__list > li._dropdown .menu__arrow {
     margin: 0 0 5px;
 }
 
+.map__cont div {
+    margin: 0 0 5px;
+}
 .ya_map {
     width: 35%;
 }
@@ -489,6 +493,11 @@ body._touch .menu__list > li._dropdown .menu__arrow {
     text-align: center;
     font-size: 18px;
     font-weight: 400;
+}
+
+#number a {
+    color: #fff;
+    text-decoration: none;
 }
 
 #app {
@@ -548,7 +557,6 @@ body._touch .menu__list > li._dropdown .menu__arrow {
     }
 
     .map__cont {
-        width: 90%;
         margin: 0 0 5px;
     }
 

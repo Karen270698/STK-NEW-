@@ -220,7 +220,7 @@ hr {
     z-index: 1;
 }
 
-.nol {
+/*.nol {
     top: 12%;
     left: 10%;
     font-size: 105px;
@@ -232,10 +232,10 @@ hr {
     3px 3px 0px #680000,
     4px 4px 0px #530000,
     5px 5px 0px #290000,
-    15px 15px 25px rgba(0,0,0,.9);
+    10px 8px 20px rgba(0,0,0,.9);
     text-align: center;
     width: 680px;
-}
+}*/
 .arajin {
     top: 8%;
     left: 12%;
@@ -458,7 +458,7 @@ hr {
     width: 100%;
     max-width: 1200px;
     text-align: center;
-    margin: 95px auto 0;
+    margin: 75px auto 0;
     line-height: 0px;
 }
 
@@ -792,6 +792,34 @@ q {
     top: 15%;
     margin: 0;
 }
+/*--------------*/
+.zon {
+    max-width: 25%;
+    margin: 0 auto 40px;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow:0 2px 8px 0 #616161;
+    text-decoration: none;
+    color: black;
+    transition: 0.3s;
+}
+.zon:hover {
+    box-shadow:0 4px 16px 0 #525252;
+}
+.zon p {
+    font-size: 22px;
+    margin: 15px 0 15px 10px;
+}
+
+.zon img {
+    width: 48px !important;
+    margin: 10px;
+    height: auto !important;
+    box-shadow: none;
+}
 
 /*--------------------*/
 .block-popup {
@@ -902,13 +930,6 @@ q {
         margin: 165px auto 0px;
     }
 
-    .nol {
-        top: 8%;
-        left: 9%;
-        font-size: 60px;
-        width: 400px;
-    }
-
     .arajin {
         top: 10%;
         left: 0%;
@@ -931,6 +952,10 @@ q {
         margin: 55px 40px;
     }
 
+    .zon {
+        max-width: 45%;
+    }
+
     .block-popup {
         width: 220px;
         height: 305px;
@@ -944,13 +969,6 @@ q {
 
     .container__slide {
         margin: 85px auto 0px;
-    }
-
-    .nol {
-        top: 8%;
-        left: 9%;
-        font-size: 60px;
-        width: 400px;
     }
 
     .arajin {
@@ -1033,12 +1051,7 @@ q {
     .container__slide {
         margin: 75px auto 0px;
     }
-    .nol {
-        top: 6%;
-        left: 3%;
-        font-size: 48px;
-        width: 360px;
-    }
+
     .arajin {
         left: 3%;
         font-size: 35px;
@@ -1132,6 +1145,10 @@ q {
         width: 180px;
         font-size: 10px;
         left: 30%;
+    }
+
+    .zon {
+        max-width: 75%;
     }
 
     .block-popup {
